@@ -100,7 +100,7 @@ def proses_tambah():
     finally:
         connection.close()
 
-    return redirect(url_for('halaman_awal'))
+    return redirect(url_for('halaman_home'))
 
 if __name__ == '__main__':
     app.run(debug=True)
