@@ -44,11 +44,11 @@ def halaman_awal():
         cursor.close()  # Tutup cursor
         connection.close()  # Tutup koneksi
 
-    return render_template('home.html', hasil=result)
+    return render_template('index.html', hasil=result)
 
 @app.route('/home')
 def halaman_home():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/concert')
 def halaman_concert():
