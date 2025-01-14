@@ -70,7 +70,7 @@ def halaman_hindia():
 
 @app.route('/denny_caknan')
 def halaman_denny_caknan():
-    return render_template('denny_caknan.html')
+    return render_template('denny caknan.html')
 
 @app.route('/bernadya')
 def halaman_bernadya():
